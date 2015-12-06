@@ -1,0 +1,28 @@
+(function(){
+	angular.module('OnlineStore')
+		.config(function($routeProvider){
+			$routeProvider.when('/',{
+				templateUrl:'pages/home/index.html',
+				controller:'HomeController',
+				controllerAs:'homectrl'
+			})
+			.when('/phone',{
+				templateUrl:'pages/phone/index.html',
+				controller:'PhoneController',
+				controllerAs:'phonectrl'
+			})
+			.when('/tv',{
+				templateUrl:'pages/tv/index.html',
+				controller:'TVController',
+				controllerAs:'tvctrl'
+			})
+			.when('/tablet',{
+				templateUrl:'pages/tablet/index.html',
+				controller:'TabletController',
+				controllerAs:'tabletctrl'
+			})
+			.otherwise({
+				redirectTo:'/'
+			})
+		});
+})();

@@ -1,0 +1,58 @@
+.left_header{
+	position: relative;
+	display: inline-block;
+	background-image: url(../image/logo.PNG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 80px;
+
+}
+.right_header{
+	position: relative;
+	display: inline-block;
+	width: 90%;
+}
+.header{
+/*	background-color: yellow;
+*/}
+.navbar-inverse{
+	background-color: #FDD504;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: black;
+}
+.navbar{
+	font-family: FontAwesome;
+}
+.home:before{
+	content:"\f015";
+	font-size: 33px;
+}
+.home,.phone,.tv,.tablet{
+	width: 24%;
+}
+.phone:before{
+	content:"\f10b";
+	font-size: 33px;
+}
+.tv:before{
+	content:"\f108";
+	font-size: 33px;
+
+}
+.tablet:before{
+	content:"\f10a";
+	font-size: 33px;
+
+}
+.navbar-nav>li{
+	text-align: center;
+}
+
+.nav_title{
+	width: 82%;
+}
+.navbar-nav>li>a{
+	display: inline-block;
+}
