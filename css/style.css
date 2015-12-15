@@ -68,13 +68,10 @@ img{
   position: relative;
   width: 100%;
   /* left:50%; */
-  top:20px;
-<<<<<<< HEAD
+  bottom:20px;
   /* margin-left:-200px; */
 }
-=======
- margin-left:-200px;
-}
+
 
 /*Khang design home_content*/
 .content{
@@ -101,4 +98,3 @@ img{
 .product_text{
 	text-align: center;
 }
->>>>>>> origin/master
