@@ -36,28 +36,34 @@
 		"image_home":[
 						{
 							"full":"smart_lg.jpg",
-							"price":"650€"
+							"price":"650€",
+							"model":"TV LED LG"
 						},
 						{
 							"full":"led_samsung_32inch.jpg",
-							"price":"850€"
+							"price":"850€",
+							"model":"TV LED Samsung"
 
 						},
 						{
 							"full":"iphone6-64gb.jpg",
-							"price":"950€"
+							"price":"950€",
+							"model":"iphone6 64gb"
 						},
 						{
 							"full":"iphone6s-64gb.jpg",
-							"price":"1050€"
+							"price":"1050€",
+							"model":"iphone6s 64gb"
 						},
 						{
 							"full":"ipad-air-2-cellular-64gb.jpg",
-							"price":"850€"
+							"price":"850€",
+							"model":"Ipad Air 2 Celllar 64gb"
 						},
 						{
 							"full":"ipad-mini-4.jpg",
-							"price":"950€"
+							"price":"950€",
+							"model":"Ipad mini 4"
 						}
 					]		
 	},

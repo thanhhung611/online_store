@@ -81,8 +81,8 @@ img{
 	position: relative;
 	display: block;
 	top: 100px;
-	left: 5%;
-}
+/*	left: 5%;
+*/}
 .product_content{
 	position: relative;
 	display: inline-block;

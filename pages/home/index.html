@@ -17,7 +17,8 @@
 			<div class="product_image" ng-repeat="image in product.image_home">
 				<div class="image_inside" style="background-image:url(image/home/{{image.full}})"></div>
 				<div class="product_text">
-					{{image.price}}
+					<div class="product_model">Model: {{image.model}}</div>
+					<div class="product_price">Price: {{image.price}}</div>
 				</div>
 			</div>
 		</div>
