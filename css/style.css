@@ -1,7 +1,7 @@
 .left_header{
 	position: relative;
 	display: inline-block;
-	background-image: url(../image/logo.PNG);
+	background-image: url(../image/logo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100px;
