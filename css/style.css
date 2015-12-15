@@ -68,6 +68,7 @@ img{
   position: relative;
   width: 100%;
   /* left:50%; */
+<<<<<<< HEAD
   top:20px;
 
   /* margin-left:-200px; */
@@ -75,6 +76,12 @@ img{
 
  margin-left:-200px;
 }
+=======
+  bottom:20px;
+  /* margin-left:-200px; */
+}
+
+>>>>>>> origin/master
 
 /*Khang design home_content*/
 .content{
@@ -101,4 +108,7 @@ img{
 .product_text{
 	text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
