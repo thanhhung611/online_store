@@ -1,3 +1,6 @@
+body{
+	background-color: #F0F0F0;
+}
 .left_header{
 	position: relative;
 	display: inline-block;
@@ -78,7 +81,6 @@ img{
 	position: relative;
 	display: block;
 	top: 100px;
-	background-color: #F0F0F0;
 }
 .product_content{
 	position: relative;
@@ -92,6 +94,10 @@ img{
 	background-color: white;
 }
 .image_inside{
+	position: relative;
+	left: 5px;
+	margin-left: -4px;
+	border: 1px solid grey; 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 50%;
