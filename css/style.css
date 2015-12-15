@@ -85,6 +85,9 @@ img{
 
 /*Khang design home_content*/
 .content{
+	position: relative;
+	display: block;
+	top: 50px;
 	background-color: #F0F0F0;
 }
 .product_content{
