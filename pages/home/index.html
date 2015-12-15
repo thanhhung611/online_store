@@ -1,6 +1,14 @@
 	<div class="header" ng-include="'./template/header.html'">
 	</div>
-	<div class="swiper">
-		
+	<div class="swiper" id="slides_control">
+		<div>
+			<uib-carousel interval="myInterval">
+				<slide ng-repeat="swiper in swipers" active="slide.active">
+<!-- 					<img ng-src="{{ swiper.path }}">
+ -->				
+ 						{{swiper.title}}
+				</slide>
+			</uib-carousel>
+		</div>
 	</div>
 	<div class="content"></div>
