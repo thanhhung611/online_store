@@ -1,6 +1,6 @@
 [
 	{
-		"image":[
+		"image_tv":[
 					{
 						"full":"led_lg.jpg",
 						"des":"32inch_led",
@@ -32,11 +32,38 @@
 						"price":"1000€"
 					}
 				],
-		"title":"tv"		
+		"title":"tv",
+		"image_home":[
+						{
+							"full":"smart_lg.jpg",
+							"price":"650€"
+						},
+						{
+							"full":"led_samsung_32inch.jpg",
+							"price":"850€"
+
+						},
+						{
+							"full":"iphone6-64gb.jpg",
+							"price":"950€"
+						},
+						{
+							"full":"iphone6s-64gb.jpg",
+							"price":"1050€"
+						},
+						{
+							"full":"ipad-air-2-cellular-64gb.jpg",
+							"price":"850€"
+						},
+						{
+							"full":"ipad-mini-4.jpg",
+							"price":"950€"
+						}
+					]		
 	},
 	{
 		"title":"mobile",		
-		"image":[
+		"image_mobile":[
 					{
 						"full":"iphone6-64gb.jpg",
 						"des":"8.0px camera",
@@ -82,7 +109,7 @@
 	},
 	{
 		"title":"tablet",
-		"image":[
+		"image_tablet":[
 					{
 						"full":"ipad-air-2-cellular-64gb.jpg",
 						"des":"8.0px camera",

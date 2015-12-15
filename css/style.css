@@ -71,3 +71,29 @@ img{
   top:20px;
  margin-left:-200px;
 }
+
+/*Khang design home_content*/
+.content{
+	background-color: #F0F0F0;
+}
+.product_content{
+	position: relative;
+	display: inline-block;
+	width: 70%;
+}
+.product_image{
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	background-color: white;
+}
+.image_inside{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	height: 200px;
+	width: 100%;
+}
+.product_text{
+	text-align: center;
+}
