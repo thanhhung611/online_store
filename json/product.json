@@ -1,0 +1,38 @@
+[
+	{
+		"image":[
+					{
+						"full":"local1.jpg"	
+					},
+					{
+						"full":"local2.jpg"	
+					}
+				],
+		"des":""
+	},
+	{
+		"title":"Nationwide shipping",
+		"image":[
+					{
+						"full":"shipping1.jpg"	
+					},
+					{
+						"full":"shipping2.jpg"	
+					}
+				],
+		"class":"shipping"
+	
+	},
+	{
+		"title":"Weddings & events",
+		"image":[
+					{
+						"full":"wedding1.jpg"	
+					},
+					{
+						"full":"wedding2.jpg"	
+					}
+				],
+		"class":"wedding"
+	}
+]
