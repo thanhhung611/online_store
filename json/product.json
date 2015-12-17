@@ -33,6 +33,28 @@
 					}
 				],
 		"title":"tv",
+		"news_home":[
+				{
+					"des_news":"Google's Project Fi now works with select iPads",
+					"news_img":"image.jpg",
+					"link":"http://mashable.com/2015/12/16/google-project-fi-data-sim-tablets/#neBqZJrUkZq3"	
+				},
+				{
+					"news_img":"image2.jpg",
+					"des_news":"Malvertising is the next step in cyber crime",
+					"link":"http://mashable.com/2015/12/17/malvertising-cyber-crime"
+				},
+				{
+					"news_img":"image3.jpg",
+					"des_news":"Apple Watch comes to Walmart",
+					"link":"http://mashable.com/2015/12/12/apple-watch-walmart/#neBqZJrUkZq3"		
+				},
+				{
+					"news_img":"image4.jpg",
+					"des_news":"Hands on with Microsoft's Hololens Development Edition",		
+					"link":"http://mashable.com/2015/12/17/hololens-development-edition/#6F1TcLgfNiqP"	
+				}
+		],
 		"image_home":[
 						{
 							"full":"smart_lg.jpg",
@@ -40,7 +62,8 @@
 							"model":"TV LED LG",
 							"display":"RetinaHD",
 							"cpu":"Apple A9",
-							"ram":"2GB"	
+							"ram":"2GB"
+								
 						},
 						{
 							"full":"led_samsung_32inch.jpg",
@@ -48,8 +71,8 @@
 							"model":"TV LED Samsung",
 							"display":"RetinaHD",
 							"cpu":"Apple A9",
-							"ram":"2GB"	
-
+							"ram":"2GB"
+										
 						},
 						{
 							"full":"iphone6-64gb.jpg",
@@ -57,7 +80,9 @@
 							"model":"iphone6 64gb",
 							"display":"RetinaHD",
 							"cpu":"Apple A9",
-							"ram":"2GB"	
+							"ram":"2GB"
+								
+	
 						},
 						{
 							"full":"iphone6s-64gb.jpg",
@@ -65,7 +90,8 @@
 							"model":"iphone6s 64gb",
 							"display":"RetinaHD",
 							"cpu":"Apple A9",
-							"ram":"2GB"	
+							"ram":"2GB"
+							
 						},
 						{
 							"full":"ipad-air-2-cellular-64gb.jpg",

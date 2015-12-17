@@ -13,8 +13,8 @@
 	</div>
 
 
-	<div class="content" ng-repeat="product in products">
-		<div class="product_content">
+	<div class="content">
+		<div class="product_content" ng-repeat="product in products">
 			<div class="product_image" ng-repeat="image in product.image_home">
 				<div class="hover" ng-mouseover="hoverIn(image)" ng-mouseleave="hoverOut(image)">
 					<div class="image_inside" style="background-image:url(image/home/{{image.full}})"></div>
@@ -33,6 +33,22 @@
 					<div class="cpu">CPU:{{image.cpu}}</div>
 					<div class="ram">Ram:{{image.ram}}</div>
 				</div>
+			</div>
+		</div>
+		<div class="news_content">
+			<div class="header_news">
+				<h2> What's New</h2>
+				<b></b>
+			</div>
+			<div class="main_news">
+				<div class="news_parent" ng-repeat="product in products">
+					<div class="news_container" ng-repeat="news in product.news_home">
+						<a ng-href="{{news.link}}">
+							<img class="news_image" style="background-image:url(image/home/{{news.news_img}})"/>
+							<h3 class="news_des"> {{news.des_news}}	</h3>	
+						</a>
+					</div>
+				</div>	
 			</div>
 		</div>
 	</div>		
