@@ -67,7 +67,7 @@ body{
 }
 img{
   margin:auto;
-  width: 45%;
+  width: 49%;
 }
 #slides_control {
   position: relative;
@@ -75,8 +75,12 @@ img{
   bottom:20px;
   /* left: 5%; */
 }
-
-
+.carousel-indicators{
+	bottom: -43px;
+}
+.carousel-indicators li{
+	border: 1px solid red;
+}
 /*Khang design home_content*/
 .content{
 	position: relative;
