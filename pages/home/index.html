@@ -16,10 +16,22 @@
 	<div class="content" ng-repeat="product in products">
 		<div class="product_content">
 			<div class="product_image" ng-repeat="image in product.image_home">
-				<div class="image_inside" style="background-image:url(image/home/{{image.full}})"></div>
-				<div class="product_text">
-					<div class="product_model">Model: {{image.model}}</div>
-					<div class="product_price">Price: {{image.price}}</div>
+				<div class="hover" ng-mouseover="hoverIn(image)" ng-mouseleave="hoverOut(image)">
+					<div class="image_inside" style="background-image:url(image/home/{{image.full}})"></div>
+					<div class="product_text">
+						<div class="hover_text">
+						 	<div class="model_text">{{image.model}}</div>
+							<div class="product_price">
+								<div class="price_text">Price:	{{image.price}}</div>
+								<div class="cart"></div>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="des_text" ng-show="image.hoverEdit">
+					<div class="monitor">Display:{{image.display}}</div>
+					<div class="cpu">CPU:{{image.cpu}}</div>
+					<div class="ram">Ram:{{image.ram}}</div>
 				</div>
 			</div>
 		</div>

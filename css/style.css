@@ -1,5 +1,6 @@
 body{
 	background-color: #F0F0F0;
+	font-family: FontAwesome;
 }
 .left_header{
 	position: relative;
@@ -91,22 +92,95 @@ img{
 .product_image{
 	position: relative;
 	display: inline-block;
-	width: 50%;
+	width: 49.1%;
+	margin-right: 0.8%;
 	background-color: white;
+	margin-bottom: 8px;
+	cursor: pointer;
 }
 .image_inside{
 	position: relative;
 	left: 5px;
+	top:6px;
 	margin-left: -4px;
-	border: 1px solid grey; 
-	background-size: contain;
+/*	border: 1px solid grey; 
+*/	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 50%;
-	height: 200px;
+	height: 100px;
 	width: 100%;
 }
 .product_text{
+	position: relative;
+	top: 6px;
+	line-height: 24px;
 	text-align: center;
+	height: 60px;
+}
+.image_inside{
+	z-index: 1;
+}
+.galllery_image{
+	position: relative;
+	text-align: center
+}
+.hover{
+	position: relative;
+	z-index: 1;
+}
+.hover:hover{
+	opacity: 0.1;
+	cursor: pointer;
+}
+.des_text{
+	position: absolute;
+    bottom: 45%;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+    opacity: 1;
+}
+.des_text.ng-hide{
+	opacity: 0;
+}
+.product_price{
+	position: relative;
+	width: 50%;
+	left: 24%;
+	border: 1px solid grey;
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+	border-radius: 4px;
+	background-color: #f3d078;
+	text-align: left;
+	text-indent: 5px;
+}
+.model_text{
+	position: relative;
+	width: 50%;
+	left: 27%;
+	text-align: left;
+}
+
+.price_text{
+	position: relative;
+	display: inline-block;
+	width: 71%;
+}
+.cart{
+	position: relative;
+	display: inline-block;
+	width: 24%;
+	background-color: #22282f;
+	color: white;
+	text-align: center;
+	text-indent: 6px;
+	border-radius: 4px;
+}
+.cart:after{
+	content:"\f07a";
 }
 
 .parent_container{

@@ -37,33 +37,51 @@
 						{
 							"full":"smart_lg.jpg",
 							"price":"650€",
-							"model":"TV LED LG"
+							"model":"TV LED LG",
+							"display":"RetinaHD",
+							"cpu":"Apple A9",
+							"ram":"2GB"	
 						},
 						{
 							"full":"led_samsung_32inch.jpg",
 							"price":"850€",
-							"model":"TV LED Samsung"
+							"model":"TV LED Samsung",
+							"display":"RetinaHD",
+							"cpu":"Apple A9",
+							"ram":"2GB"	
 
 						},
 						{
 							"full":"iphone6-64gb.jpg",
 							"price":"950€",
-							"model":"iphone6 64gb"
+							"model":"iphone6 64gb",
+							"display":"RetinaHD",
+							"cpu":"Apple A9",
+							"ram":"2GB"	
 						},
 						{
 							"full":"iphone6s-64gb.jpg",
 							"price":"1050€",
-							"model":"iphone6s 64gb"
+							"model":"iphone6s 64gb",
+							"display":"RetinaHD",
+							"cpu":"Apple A9",
+							"ram":"2GB"	
 						},
 						{
 							"full":"ipad-air-2-cellular-64gb.jpg",
 							"price":"850€",
-							"model":"Ipad Air 2 Celllar 64gb"
+							"model":"Ipad Air 2 Celllar 64gb",
+							"display":"RetinaHD",
+							"cpu":"Apple A9",
+							"ram":"2GB"	
 						},
 						{
 							"full":"ipad-mini-4.jpg",
 							"price":"950€",
-							"model":"Ipad mini 4"
+							"model":"Ipad mini 4",
+							"display":"RetinaHD",
+							"cpu":"Apple A9",
+							"ram":"2GB"	
 						}
 					]		
 	},
